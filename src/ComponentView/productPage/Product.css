@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+
+.modal-content {
+  width: 550px;
+  height: 450px;
+  padding: 10px 20px;
+  margin: 15% auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+.modal-content img {
+    width: 70%;
+  margin-right:30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.header-blue{
+    background-color: #9EE7E0;
+    width: 550px;
+    height: 40px;
+}
+.modal-content-description{
+    display: flex;
+    border-left-style: solid;
+     border-bottom: none;
+    border-color: #9EE7E0;
+    border-right-style: solid;
+}
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+.elements button {
+  background-color: #ff9f1c;
+  font-size: 15px;
+  color: white;
+  border: 0;
+  width: 100px;
+  height: 30px;
+ 
+}
+.icon{
+    margin-top: 5px;
+    margin-left: 450px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+/*partde de arriba*/
+.productsTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.productsTitle p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 155px;
+    font-weight: 800;
+
+}
+.searchBar{
+    display:flex;
+    width: 200x;
+    height: 25px;
+    margin-right: 155px;
+    margin-top: 40px;
+    border: 1px solid #FF9F1C;
+    border-radius: 10px;
+}
+/* productos */
+
+.productComponents{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 370px;
+    height: auto;
+    justify-content: space-between;
+
+} 
+.productsElementContainer{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+
+}
+.productImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 361px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.productsElementName{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-weight:400;
+}
+
+.productsElementPrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+

@@ -7,7 +7,6 @@ import circlePlus from '@iconify-icons/akar-icons/circle-plus';
 
 import zapatohombremodelo2 from "../../Assets/productsMan/zapatohombremodelo2.png"
 
-
 const Contador = (props) =>{
     const {name, category, colors, modelo, price} = props.item;
     const [numero, setNumero] = useState(1);

@@ -9,7 +9,7 @@ export function Home() {
 
         <div>
             <Header />
-            <h1>I am Home.</h1>
+            <h1>I am Home P.</h1>
             <Footer />
         </div>
 

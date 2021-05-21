@@ -7,7 +7,7 @@
         "gender": "Women",
         "colors": ["verde"],
         "size":{"sizeS": "s", "sizeM":"m", "sizel":"l"},
-        "img": {"modelo":"https://github.com/KarinaKanoDev/TotalLook/blob/master/src/Assets/productsWoman/ropamujermodelo1.png",
+        "img": {"modelo":"https://raw.githubusercontent.com/KarinaKanoDev/TotalLook/master/src/Assets/productsWoman/ropamujermodelo1.png",
         "detalle":"https://raw.githubusercontent.com/KarinaKanoDev/TotalLook/master/src/Assets/productsWoman/ropamujerdetalle1.png"}, 
         "price": 250.00,
         "quantity": 1
@@ -20,7 +20,7 @@
         "colors": [],
         "size":{"sizeS": "s", "sizeM":"m", "sizel":"l"},
         "img": {"modelo":"https://raw.githubusercontent.com/KarinaKanoDev/TotalLook/master/src/Assets/productsWoman/ropamujermodelo2.png",
-          "detalle":"https://github.com/KarinaKanoDev/TotalLook/blob/master/src/Assets/productsWoman/ropamujerdetalle2.png"}, 
+          "detalle":"https://raw.githubusercontent.com/KarinaKanoDev/TotalLook/master/src/Assets/productsWoman/ropamujerdetalle2.png"}, 
         "price": 350.00,
         "quantity": 1
       },
@@ -86,7 +86,7 @@
       },
       {
         "_id": 8,
-        "name": "Zpato Casual Rosa",
+        "name": "Zapato Casual Rosa",
         "category": "Shoes",
         "gender": "Women",
         "colors": [],

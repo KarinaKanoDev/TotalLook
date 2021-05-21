@@ -1,1 +1,0 @@
-// Carrucel de promociones

@@ -5,6 +5,7 @@ import {Footer} from '../generalComponents/Footer'
 import {Header} from '../generalComponents/Header'
 import {Promo} from './Promo'
 import {Navar} from './Navar'
+import {Carrousel} from '../homePage/Carrousel'
 
 export function Home() {
 
@@ -28,6 +29,7 @@ export function Home() {
             <Header />
             <Navar />
 
+            <Carrousel/>
             <h1>I am Home P.</h1>
             <div>
                 {product && product.map(item =>

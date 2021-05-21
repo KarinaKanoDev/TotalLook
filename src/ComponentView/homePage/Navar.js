@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 export function Navar(){
     
@@ -6,7 +7,11 @@ export function Navar(){
 
         <div className='navar'>
             <div className='bottons'>
-                <p className='buttonElement'>Hombre</p>
+                <Link to="/Category">
+                <p onClick={() =>{
+                    
+                }} className='buttonElement'>Hombre</p>
+                </Link>
                 <p className='buttonElement'>Mujer</p> 
                 <p className='buttonElement'>Ver Todos</p>
             </div>

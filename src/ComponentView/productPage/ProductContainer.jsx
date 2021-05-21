@@ -9,7 +9,7 @@ export const ProductContainer = () =>  {
             <div className='productsElementImage'>
                 <img className='productImg' src='./sampleImage/ropamujermodelo1.png' alt='ropa'/>
                 <div className='productsElementName'>Blusa </div>
-                <div className='productsElementPrice'> $400 </div>
+                <div className='productsElementPrice'> $4000 </div>
             </div>
             {/* </div> */}
             </div>

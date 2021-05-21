@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-// Carrouscel de promociones
-=======
 // Carrucel de promociones
 import React, { useState } from 'react';
 import {
@@ -79,4 +76,3 @@ export const Carrousel= (props) => {
   );
 }
 
->>>>>>> 6fb1310930bee1beb73d230a528339672779336c

@@ -1,4 +1,5 @@
 import './App.css';
+import './ComponentView/productPage/Product.css';
 import React from "react";
 import './ComponentView/homePage/Home.css'
 import {

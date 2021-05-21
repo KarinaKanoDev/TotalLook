@@ -38,8 +38,12 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@iconify-icons/gg": "^1.1.0",
     "@iconify-icons/heroicons-outline": "^1.1.2",
+=======
+    "@iconify-icons/fa-solid": "^1.1.1",
+>>>>>>> f4942790e1f0d5332dc76beaf552151a4f7db394
     "@iconify/react": "^1.1.4"
   }
 }

@@ -40,7 +40,6 @@ export function Home() {
             <Navar />
 
             {/* <Carrousel/> */}
-            <h1>I am Home P.</h1>
             <div>
                 
                 {productPromo && productPromo.map(item =>

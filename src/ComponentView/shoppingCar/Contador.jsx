@@ -8,7 +8,8 @@ import circlePlus from '@iconify-icons/akar-icons/circle-plus';
 import zapatohombremodelo2 from "../../Assets/productsMan/zapatohombremodelo2.png"
 
 
-const Contador = () =>{
+const Contador = (props) =>{
+    const {name, category, colors, modelo, price} = props.item;
     const [numero, setNumero] = useState(1);
     const Aumentar = () =>{
         setNumero(numero + 1)
@@ -18,13 +19,15 @@ const Contador = () =>{
     }
     return (
         <div>
+            
+            
              <div className='container-product'>
-        <img className='container-img' src={zapatohombremodelo2} alt="" />
+        <img className='container-img' src={modelo} alt="" />
         <div className='container-description'>
-        <p>Zapato de hombre</p>
-        <p>Talla Grande</p>
-        <p>Color</p>
-        <p>$250.00</p>
+        <p>{name}</p>
+        <p>{category}</p>
+        <p>{colors}</p>
+        <p>{price}</p>
         <div className='container-cantidad'>
         <p className='numbers'>cantidad</p>
         <div>

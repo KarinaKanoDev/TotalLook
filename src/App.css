@@ -3,7 +3,7 @@
 }
 
 .header{
-  
+
   background-image: url(../src/Assets/logo/headerImage.png);
   display: flex;
   flex-wrap: wrap;

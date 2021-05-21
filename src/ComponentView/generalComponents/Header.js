@@ -11,7 +11,7 @@ export function Header() {
     return(
 
         <div className="header">
-
+            <h1>d</h1>
             <div className='logoImage'>
                 <img src={totallook} alt="totallook" />
             </div>

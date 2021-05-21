@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 import {Footer} from '../generalComponents/Footer'
 import {Header} from '../generalComponents/Header'
 import {Promo} from './Promo'
@@ -35,6 +36,7 @@ export function Home() {
                         item={item}
                         key={item._id}
                     />
+
                 )}
             </div>
             <Footer />
@@ -42,4 +44,4 @@ export function Home() {
 
     )
     
-}
+};

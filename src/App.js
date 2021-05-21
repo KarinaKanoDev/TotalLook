@@ -1,5 +1,6 @@
 import './App.css';
 import React from "react";
+import './ComponentView/homePage/Home.css'
 import {
   BrowserRouter as Router,
   Switch,

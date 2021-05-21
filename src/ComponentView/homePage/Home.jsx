@@ -5,7 +5,8 @@ import {Footer} from '../generalComponents/Footer'
 import {Header} from '../generalComponents/Header'
 import {Promo} from './Promo'
 import {Navar} from './Navar'
-// import {Carrousel} from '../homePage/Carrousel'
+
+ // import {Carrousel} from '../homePage/Carrousel'
 
 export function Home() {
 
@@ -40,7 +41,7 @@ export function Home() {
             <Navar />
 
             {/* <Carrousel/> */}
-            <h1>I am Home P.</h1>
+
             <div>
                 
                 {productPromo && productPromo.map(item =>
@@ -49,10 +50,11 @@ export function Home() {
                         item={item}
                         key={item._id}
                     />
-
-                )}
+               )}
             </div>
-            <Footer />
+            <div className='footer'>
+                <Footer />
+            </div>
         </div>
 
     )

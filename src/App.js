@@ -10,9 +10,11 @@ import {
 } from "react-router-dom";
 
 import { Home } from "./ComponentView/homePage/Home";
-import { Category } from "./ComponentView/categoryPage/Category";
 import { Product } from "./ComponentView/productPage/Product";
 import { ShoppingCar } from "./ComponentView/shoppingCar/ShoppingCar";
+import {MenCategory} from './ComponentView/categoryPage/MenCategory'
+import {WomenCategory} from './ComponentView/categoryPage/WomenCategory'
+import {AllCategories} from './ComponentView/categoryPage/AllCategories'
 
 function App() {
   return (
@@ -22,8 +24,14 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/Category">
-            <Category />
+          <Route path="/MenCategory">
+            <MenCategory />
+          </Route>
+          <Route path="/WomenCategory">
+            <WomenCategory />
+          </Route>
+          <Route path="/AllCategory">
+            <AllCategories />
           </Route>
           <Route path="/Products">
             <Product />

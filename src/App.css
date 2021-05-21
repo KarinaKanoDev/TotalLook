@@ -3,12 +3,39 @@
 }
 
 .header{
-  background-color:#9EE7E0 ;
+
+  background-image: url(../src/Assets/logo/headerImage.png);
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+
 }
-.header img{
-  width: 40%;
+
+.carElements{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 1px;
+
+}
+
+.logoImage{
+  display: flex;
+  align-content: center;
+  width: 15%;
+
+}
+
+.iconShoppingCar{
+  display: flex;
+  width: 100px;
+
+}
+.miCarritoText{
+  color: white;
+  font-size: 25px;
+  font-weight: bold; 
+
 }

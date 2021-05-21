@@ -12,9 +12,9 @@ export function Category() {
         <Fragment>
             <Header />
             <body>
-            <MenCategory/>
+            {/* <MenCategory/>
             <WomenCategory/>
-            <AllCategories/>
+            <AllCategories/> */}
             </body>
             <Footer/>
         </Fragment>

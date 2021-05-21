@@ -217,37 +217,5 @@
         "quantity": 1
       }
       
-    ],
-    "promotions":[
-      {
-      "_id":1,
-      "name":"blusa con moño",
-      "category":"clothes",
-      "gender":"women",
-      "colors":"negro",
-      "size":{"sizeS": "s", "sizeM":"m", "sizeL":"l"},
-      "img":{
-        "detalle":"https://raw.githubusercontent.com/KarinaKanoDev/TotalLook/master/src/Assets/promoWoman/promoropamujerdetalle1.png", 
-        "modelo": "https://raw.githubusercontent.com/KarinaKanoDev/TotalLook/master/src/Assets/promoWoman/promoropamujermodelo1.png"
-      },
-      "price": 350.00,
-      "finalPrice":175.00,
-      "quantity": 1
-      },
-      {
-      "_id":2,
-      "name":"blusa verde",
-      "category":"clothes",
-      "gender":"women",
-      "colors":[],
-      "size":{"sizeS": "s", "sizeM":"m", "sizeL":"l"},
-      "img":{
-        "detalle":"https://raw.githubusercontent.com/KarinaKanoDev/TotalLook/master/src/Assets/promoWoman/promoropamujerdetalle2.png",
-        "modelo":"https://raw.githubusercontent.com/KarinaKanoDev/TotalLook/master/src/Assets/promoWoman/promoaccmujermodelo2.png"
-      },
-      "price": 250.00,
-      "finalPrice":125.00,
-      "quantity": 1
-      }
-  ]
+    ]
 }

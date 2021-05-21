@@ -24,7 +24,6 @@ export function Home() {
         setProductPromo(getFetchData)
 
     }
-
     console.log(product)
 
     useEffect(() => {

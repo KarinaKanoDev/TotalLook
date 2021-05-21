@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const items = [
   {
-    src: require ('.img/labo.jpg'),
+    src: {},
     altText: 'Slide 1',
     caption: 'Slide 1'
   },

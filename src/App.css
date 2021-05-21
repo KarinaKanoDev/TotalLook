@@ -3,12 +3,25 @@
 }
 
 .header{
-  background-color:#9EE7E0 ;
+  
+  background-image: url(../src/Assets/logo/headerImage.png);
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+
 }
-.header img{
-  width: 40%;
+
+.logoImage{
+  display: flex;
+  align-content: center;
+  width: 30%;
+
+}
+
+.iconShoppingCar{
+  display: flex;
+  width: 100px;
+
 }

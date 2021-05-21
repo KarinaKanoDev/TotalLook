@@ -1,5 +1,6 @@
 import React from "react";
 // npm install --save-dev @iconify/react @iconify-icons/gg
+// eslint-disable-next-line no-unused-vars
 import { Icon, InlineIcon } from '@iconify/react';
 import closeO from '@iconify-icons/gg/close-o';
 import mujer from '../../Assets/productsWoman/ropamujermodelo2.png'

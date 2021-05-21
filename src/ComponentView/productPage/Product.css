@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-
-
 .modal-content {
   width: 550px;
   height: 450px;
@@ -10,9 +8,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
- 
-
 }
+
 .modal-content img {
     width: 70%;
   margin-right:30px;

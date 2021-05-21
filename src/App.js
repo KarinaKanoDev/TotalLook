@@ -2,6 +2,7 @@ import './App.css';
 import './ComponentView/shoppingCar/ShoppingCar.css'
 
 import React from "react";
+import './ComponentView/homePage/Home.css'
 import {
   BrowserRouter as Router,
   Switch,

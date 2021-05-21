@@ -1,4 +1,6 @@
 import './App.css';
+import './ComponentView/shoppingCar/ShoppingCar.css'
+
 import React from "react";
 import {
   BrowserRouter as Router,

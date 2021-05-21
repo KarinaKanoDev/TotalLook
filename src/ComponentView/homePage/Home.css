@@ -40,6 +40,10 @@
     margin-left: 35px;
     background-color: #FF9F1C;
 }
+.miCarritoText{
+    color: white;
+    font-size: 25px;
+}
 
 .search{
     display: flex;
@@ -48,3 +52,28 @@
     border-radius:9px;
 
 }
+
+/*Promo Component. css*/
+
+.promoComponent{
+
+    display: flex;
+    height: 600px;
+    left: 56px;
+    top: 0px;
+    justify-content: center;
+    margin-top: 4%;
+
+}
+
+.promoImage{
+    width: 23%;
+    height: 84%;
+}
+.promoImage1{
+    background-image: url(../../Assets/logo/promotion.png);
+    width: 23%;
+    height: 84%;
+}
+
+            

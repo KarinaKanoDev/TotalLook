@@ -9,14 +9,22 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 4px;
+
+}
+
+.carElements{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 1px;
 
 }
 
 .logoImage{
   display: flex;
   align-content: center;
-  width: 30%;
+  width: 15%;
 
 }
 

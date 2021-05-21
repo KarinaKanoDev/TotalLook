@@ -1,14 +1,20 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 
-export function Promo({item}){
-    
-    return(
+import promoImage from '../../Assets/logo/promotion.png'
 
-        <div>
-             <h1>Ya duermanse!!</h1>
-            <h2>{item.name}</h2>
-            <img src={item.img.modelo} />
+export function Promo({item}){
+    console.log(item.name)
+    return(
+        
+        <div className= 'promoComponent'>
+            {/* <hi>{item.name}</hi> */}
+            <div className='promoImage'>
+                {/* <img src={images} /> */}
+            </div>
+            <div className='promoImage1'>
+                <img className='imagePromo' src={promoImage} />
+            </div>
         </div>
 
     )

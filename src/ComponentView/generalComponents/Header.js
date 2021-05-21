@@ -10,9 +10,14 @@ export function Header() {
     return(
 
         <div className="header">
-            
-                <img className='logoImage' src={totallook} alt="totallook" />
+
+            <div className='logoImage'>
+                <img src={totallook} alt="totallook" />
+            </div>
+            <div className='carElements'>
+            <p className='miCarritoText'>Mi Carrito</p>
                 <Icon className='iconShoppingCar' icon={shoppingCart} color="#ff9f1c" width="50px" height="50px" />
+            </div>            
             
         </div>
 

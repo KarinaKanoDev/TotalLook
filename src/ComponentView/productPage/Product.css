@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
 
+/*partde de arriba*/
 .productsTitle{
     display: flex;
     flex-direction: row;
@@ -25,16 +26,25 @@
     border: 1px solid #FF9F1C;
     border-radius: 10px;
 }
+/* productos */
 
-.productCard{
+.productComponents{
     display: flex;
     flex-direction: row;
     margin-left: 30px;
+    margin-right: 20px;
     width: 370px;
     height: auto;
+    justify-content: space-between;
+
+} 
+.productsElementContainer{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
 
 }
-
 .productImg{
     display: flex;
     flex-direction: column;
@@ -62,10 +72,3 @@
     font-weight: 300;
 }
 
-.productsElementContainer{
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-
-}
